@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Project } from "../data/projectsData";
 import "./styles/ProjectModal.css";
-import { FaGithub, FaPlay } from "react-icons/fa6";
+import { FaGithub, } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 
 interface ProjectModalProps {
