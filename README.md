@@ -10,6 +10,7 @@ React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaSc
 
 ---
 
-![Protfolio-Preview](https://aryannbhatt-portfolio.netlify.app/)
+Protfolio-Preview 
+https://aryannbhatt-portfolio.netlify.app/
 
 ---
