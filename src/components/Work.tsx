@@ -13,6 +13,9 @@ interface WorkProps {
 
 const Work = ({ onSelectProject }: WorkProps) => {
   useGSAP(() => {
+    if (window.innerWidth <= 1024) {
+    return;
+    }
     let translateX: number = 0;
 
     function setTranslateX() {
@@ -56,7 +59,7 @@ const Work = ({ onSelectProject }: WorkProps) => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>PROJECTS</span>
+          MY <span>PROJECTS</span>
         </h2>
         <div className="work-flex">
           {projectsData.map((project, index) => (
