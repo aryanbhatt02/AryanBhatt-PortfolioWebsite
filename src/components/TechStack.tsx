@@ -18,9 +18,9 @@ const imageUrls = [
   "/images/UnityImage.png",
   "/images/GitHubImage.png",
   "/images/ItchIoImage.png",
-  "/images/PremiereProImage.png",
+  "/images/CSharpImage.png",
   "/images/GimpImage.png",
-  "/images/CanvaImage.png",
+  "/images/DSAImage.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
