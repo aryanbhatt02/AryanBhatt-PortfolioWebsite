@@ -19,7 +19,7 @@ const imageUrls = [
   "/images/GitHubImage.png",
   "/images/ItchIoImage.png",
   "/images/CSharpImage.png",
-  "/images/GimpImage.png",
+  "/images/DSAImage.png",
   "/images/DSAImage.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
