@@ -88,6 +88,42 @@ export const projectsData: Project[] = [
     githubUrl: "https://github.com/aryanbhatt02/STREET-RUSH",
   },
   {
+    id: "curve-shot",
+    title: "CURVE SHOT",
+    category: "Physics 3D | Unity C#",
+    date: "SEPTEMBER 2026",
+    tools: [
+      "Unity Engine",
+      "C#",
+      "Unity Physics",
+      "ProBuilder",
+      "TextMeshPro",
+      "Dotted Trajectory",
+      "Save/Load System",
+      "PC + Mobile Controls",
+    ],
+    shortDescription:
+      "Physics-based 3D game in Unity where players launch a ball towards curved ramps using drag aiming & trajectory previews. Developed in 48 hours for a Game Developer Intern assessment.",
+    overview:
+      "Curve Shot is a physics-based 3D game built in Unity, where the player launches a ball toward a curved ramp using drag-based aiming. A dotted trajectory preview helps the player control the launch angle and power, while the final result depends on how accurately the ball hits the ramp. The game features an endless scoring system, multiple surface setups, success and failure feedback, sound effects, pause controls, and a save/load system. Both PC mouse controls and Android touch controls were implemented for mobile build testing. Developed from scratch in 48 hours as part of a Game Developer Intern practical assessment with a focus on physics, responsive controls, game feel, and clean implementation.",
+    features: [
+      "Physics-based projectile shooting & curved ramp interaction.",
+      "Dotted trajectory prediction preview for aiming and power control.",
+      "Drag-based aiming supporting PC mouse and Android touch controls.",
+      "Endless scoring system & multiple surface setups.",
+      "Success/failure feedback with sound effects and background music.",
+      "Pause menu & save/load system for progress persistence.",
+    ],
+    architecture: [
+      "Physics trajectory prediction math engine visualizing parabolic flight paths in real time.",
+      "Cross-platform touch and mouse drag input abstraction layer.",
+      "Save/Load manager handling persistence for high scores and surface presets.",
+    ],
+    image: "/images/CurveShot.png",
+    youtubeUrl: "https://youtu.be/uFJl7Vfs6U0?si=gvsRVYdNSPPUVBZi",
+    githubUrl: "https://github.com/aryanbhatt02/CURVE-SHOT",
+  },
+  {
     id: "cube-rush-game",
     title: "CUBE RUSH GAME",
     category: "Cube Runner | Unity C#",
